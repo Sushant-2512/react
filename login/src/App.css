@@ -1,0 +1,34 @@
+.app-css
+{
+    background-color:rgb(228, 248, 246);
+    width: 20%;
+    padding: 5% 10%;
+    text-align: center;
+    margin:10% 30%;
+    border-radius: 10px;
+}
+
+.formStyle
+{
+    
+    text-align: center;
+    margin: auto auto;   
+    
+    
+
+}
+div:hover
+{
+    border:3px solid green;
+
+}
+
+.buttonStyle
+{
+    font-size: 20px;
+}
+
+button:hover
+{
+    background-color:green;
+}
