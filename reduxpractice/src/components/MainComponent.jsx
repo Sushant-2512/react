@@ -1,6 +1,6 @@
-import '../CSS/Main.css'
-import { select } from '../actions/index'
 import {useDispatch} from 'react-redux'
+import { select } from '../actions/index'
+import '../CSS/Main.css'
 
 
 const Main=()=>

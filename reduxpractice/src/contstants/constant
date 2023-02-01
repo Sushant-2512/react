@@ -1,0 +1,8 @@
+const CONSTANT=
+{
+  ADD:'ADD',
+  loading:'loading',
+  select:'select',
+  addAll:'addAll'
+
+}

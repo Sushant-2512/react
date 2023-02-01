@@ -1,14 +1,17 @@
-import '../CSS/Create.css'
+import { useState } from 'react';
 import {useDispatch} from 'react-redux'
 import { select, add } from '../actions/index';
-import { useState } from 'react';
+import '../CSS/Create.css'
+
+
+
 const Create=()=>
 {
 
       const [user,setUser]=useState({})
 
       const dispatch=useDispatch()
-      function handleSubmit(event)
+      const handleSubmit=(event) =>
       {
       
              dispatch(add(user))
