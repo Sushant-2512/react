@@ -1,0 +1,39 @@
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+.Animation1 {
+    width: 100px;
+    height: 100px;
+    animation-name: fadein;
+    background-color: red;
+    animation-duration: 4s;
+}
+
+@keyframes fadeout {
+    from {opacity: 1;}
+    to {opacity: 0;}
+  }
+
+  .Animation2 {
+    width: 100px;
+    height: 100px;
+    animation-name: fadeout;
+    background-color: red;
+    animation-duration: 4s;
+}
+
+
+@keyframes run {
+    from {padding-left: 1px;}
+    to {padding-left: 500px;}
+  }
+
+.Animation3
+{
+    font-size:40px;
+    animation-name: run;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
